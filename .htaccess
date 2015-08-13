@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteRule ^webroot/home/ /? [R=301,L]
+RewriteRule ^webroot/home /? [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^webroot/(.*)$ /index.php?routepath=$1 [QSA,L]
+
+php_value upload_max_filesize 128M

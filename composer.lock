@@ -1,0 +1,160 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "2c263715aa7dcb4a07c602f1b5e07fce",
+    "packages": [
+        {
+            "name": "brokencube/automatorm",
+            "version": "0.10.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brokencube/automatorm.git",
+                "reference": "59614c1512d7ec11149fe692f4f99c174c2c57df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brokencube/automatorm/zipball/59614c1512d7ec11149fe692f4f99c174c2c57df",
+                "reference": "59614c1512d7ec11149fe692f4f99c174c2c57df",
+                "shasum": ""
+            },
+            "require": {
+                "brokencube/hodgepodge": "2.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Automatorm": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nik Barham",
+                    "email": "nik@automatorm.com",
+                    "homepage": "http://www.automatorm.com",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Simple schema-led ORM, with no code generation required",
+            "keywords": [
+                "lightweight",
+                "orm"
+            ],
+            "time": "2015-06-16 14:15:41"
+        },
+        {
+            "name": "brokencube/hodgepodge",
+            "version": "2.2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brokencube/hodgepodge.git",
+                "reference": "596564bf65d3ee1be4a4a61b6f752ce4648f0c00"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brokencube/hodgepodge/zipball/596564bf65d3ee1be4a4a61b6f752ce4648f0c00",
+                "reference": "596564bf65d3ee1be4a4a61b6f752ce4648f0c00",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "suggest": {
+                "smarty/smarty": "Default template engine for HodgePodge/Core/Scribe"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "HodgePodge": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nik Barham",
+                    "email": "hodgepodge@brokencube.co.uk",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Personal utility libraries/mini-framework",
+            "keywords": [
+                "random",
+                "utility"
+            ],
+            "time": "2015-08-10 10:37:36"
+        },
+        {
+            "name": "smarty/smarty",
+            "version": "v3.1.27",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smarty-php/smarty.git",
+                "reference": "4537d8aae6c4a26f5439bc3a05d3437d25c2c4d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/4537d8aae6c4a26f5439bc3a05d3437d25c2c4d2",
+                "reference": "4537d8aae6c4a26f5439bc3a05d3437d25c2c4d2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "libs/Smarty.class.php",
+                    "libs/SmartyBC.class.php",
+                    "libs/sysplugins/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Monte Ohrt",
+                    "email": "monte@ohrt.com"
+                },
+                {
+                    "name": "Uwe Tews",
+                    "email": "uwe.tews@googlemail.com"
+                },
+                {
+                    "name": "Rodney Rehm",
+                    "email": "rodney.rehm@medialize.de"
+                }
+            ],
+            "description": "Smarty - the compiling PHP template engine",
+            "homepage": "http://www.smarty.net",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2015-06-18 00:55:59"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

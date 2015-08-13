@@ -1,0 +1,9 @@
+{
+    "require": {
+        "brokencube/automatorm": "~0.9",
+        "smarty/smarty": "3.1.*"
+    },
+    "autoload": {
+        "psr-0": {"classes\\": "", "models\\": ""}
+    }
+}
